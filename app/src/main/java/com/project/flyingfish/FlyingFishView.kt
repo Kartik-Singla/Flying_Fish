@@ -96,7 +96,7 @@ class FlyingFishView(context: Context?) : View(context)
         redX -= redSpeed
         if(hitBallChecker(greenX, greenY))
         {
-            score+=10
+            score+=20
             greenX=-100F
         }
 
